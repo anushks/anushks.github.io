@@ -1,4 +1,32 @@
 .title
   {
-    font-size: "200"
+    font-size: "200";
+  }
+
+.welcome
+{
+  width: "100%";
+  margin-top: "0px";
+  padding-top: "0px";
+  text-align: center;
+  background-image: url("../img/quad.jpg");
+  font-family: "Roboto Thin";
+  font-size: "10px";
+}
+
+.welcome h1
+{
+  font-size: 40px;
+}
+
+
+.typewrite
+  {
+    color: #e53935;
+
+  }
+
+  .quadwhite
+  {
+    background: rgba(255,255,255,0.8);
   }
