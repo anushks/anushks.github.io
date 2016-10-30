@@ -15,9 +15,9 @@ var TxtType = function(el, toRotate, period) {
         var fullTxt = this.toRotate[i];
 
         if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        this.txt = fullTxt.substring(0, this.txt.length - 2);
         } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        this.txt = fullTxt.substring(0, this.txt.length + 2);
         }
 
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
@@ -48,6 +48,7 @@ var TxtType = function(el, toRotate, period) {
             var period = elements[i].getAttribute('data-period');
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
+                break
             }
         }
         // INJECT CSS
