@@ -27,7 +27,7 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		list-style-type: none;
 	}
 
 	blockquote, q {
@@ -2647,7 +2647,7 @@ Resume Timeline
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -3775,4 +3775,18 @@ Resume Timeline
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+}
+
+.business-card {
+	text-align: center;
+}
+
+.business-card hr {
+	color: slategray;
+	margin:5px;
+}
+
+.business-card p {
+	padding: 0;
+	margin-bottom: 2px;
 }
